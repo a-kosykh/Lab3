@@ -3,20 +3,9 @@
 // С точностью e=10^(-4)
 #include <iostream>
 #include <math.h>
+#include "func.hpp"
 using namespace std;
 int main() {
-    double e=1e-4;
-    double sum = 0;
-    double si = 0;
-    int k = 0;
-    int sign = 1;
-    do
-    {
-        k++;
-        si = 1./(pow(k,3));
-        sum += sign*si;
-        sign *= -1;
-    } while (si >= e);
     cout << "sum=" << sum << endl;
     return 0;
 }
