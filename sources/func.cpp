@@ -8,7 +8,7 @@ double sum()
     do
     {
         k++;
-        si = 1./(pow(k,3));
+        si = 1./(k * k * k);
         rez += sign*si;
         sign *= -1;
     } while (si >= e);
