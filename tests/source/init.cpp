@@ -1,4 +1,5 @@
 #include <catch.hpp>
+#include <func.hpp>
 
 SCENARIO ("summa","[sum]"){
     double rv = sum;
