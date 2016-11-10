@@ -4,7 +4,9 @@ project (Lab3)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+set(HEADERS ${PROJECT_SOURCE_DIR}/include/func.hpp)
 set(HEADERS ${PROJECT_SOURCE_DIR}/include/catch.hpp)
+set(SOURCES ${PROJECT_SOURCE_DIR}/sources/func.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
