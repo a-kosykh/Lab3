@@ -3,5 +3,5 @@
 
 SCENARIO ("summa","[sum]"){
     double rv = sum();
-      REQUIRE (rv == 0.9014989109);
+      REQUIRE (rv == 0.9014);
 }
