@@ -1,3 +1,4 @@
+#include <math.h>
 double sum() 
 {
     float e=1e-4;
