@@ -6,6 +6,6 @@
 #include "func.hpp"
 using namespace std;
 int main() {
-    printf("%.4f",sum);
+    cout << sum << endl;
     return 0;
 }
