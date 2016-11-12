@@ -12,10 +12,6 @@ double sum()
         rez += sign*si;
         sign *= -1;
     } while (si >= e);
-    rez = (rez*1000000);
-    int a = 0;
-    a = rez / 100;
-    float b = a;
-    b = b / 10000;
-    return b;
+    double a = round(rez*10000)/10000;
+    return a;
 }
